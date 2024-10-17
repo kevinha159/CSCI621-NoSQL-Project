@@ -3,6 +3,10 @@ package main.java.repository;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper;
 import org.example.model.Order;
 
+/*
+ * Repository class to do CRUD operations on Order table
+ * This class interacts with the DynamoDBMapper to do CRUD operations
+ */
 public class OrderRepository {
 
     private final DynamoDBMapper dynamoDBMapper;
